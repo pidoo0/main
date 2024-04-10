@@ -1,0 +1,245 @@
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(238, 238, 238);
+} 
+
+
+.header {
+  box-shadow: 0px 5px 10px 0px #aaa;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 98%;
+  background: rgb(34, 40, 49);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+nav{
+  display: flex;
+  position: sticky;
+  justify-content: center;
+  
+  overflow: hidden;
+  background-color: rgb(34, 40, 49);
+}
+nav ul{
+  list-style: none;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav li{
+   display: inline-block;
+   padding: 10px;
+   transition: all 0.5s ease-in-out;
+}
+nav li:hover{
+  background-color: rgb(118, 171, 184);
+  transform: scale(1.1);
+}
+nav li:active{
+  box-shadow: 3px 3px 5px black;
+}
+nav a{
+  display: block;
+  color: rgb(238, 238, 238);
+  text-decoration: none;
+  transition: 0.5s;
+}
+nav a:hover{
+color: black;  
+}
+
+.iimg{
+  margin-left: 2%;
+  margin-right: 0%;
+}
+
+.sticky {
+  
+  display: flex;
+  justify-content: space-between;
+  justify-content: right;
+ position: sticky;
+  
+ top: 0;
+ background-color: rgb(34, 40, 49); 
+ z-index: 12;
+  
+  }
+  .sticky ul {
+    list-style-type: none;
+  }
+  .sticky li {
+    display: inline-block;
+    padding: 10px;
+  }
+  .sticky a {
+    text-decoration: none;
+    color: rgb(238, 238, 238);
+  }
+    
+  .sticky a:hover {
+    color: rgb(49, 54, 63);
+  }
+.h1 img{
+  justify-content: left;
+  float: left;
+}
+
+  header{
+    background-color: rgb(34, 40, 49);
+  }
+  header img{
+    margin-top: 10px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .logo{
+    display: flex;
+   
+        margin: 10px;
+        height: 50px;
+        font-size: 50px;
+        color: rgb(238, 238, 238);
+        float: left;
+        padding: 10px;
+        justify-content: center;
+  }
+  .lololo img{
+    float: left;
+  }
+  #lologo{
+    display: block;
+    background-color: ghostwhite;
+    padding: 100px;
+    text-align: center;
+    line-height: 10px;
+  }
+  #lologo img{
+     border: 20px solid midnightblue;
+     border-radius: 200px;
+     display: block;
+     margin: 0 auto;
+     width: 40%;
+  }
+    #lologo h1{
+      color: midnightblue;
+      font-size: 30px;
+      text-decoration: underline;
+    }
+    #lologo p{
+      font-size: 10px;
+      color: lightskyblue;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+    
+    }
+    .image{
+        display: flex;
+        margin: 5px;
+        height: 50px;
+        justify-content: center;
+    }
+    div img{
+        width: 60px;
+    }
+
+    #home{
+        justify-content: center;
+    }
+    #sec1{
+        justify-content: center;
+    }
+    #section1{
+      position: relative; 
+      flex: 70%;
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+    text-align: center;
+    color: rgb(34, 40, 49);
+    
+    
+    }
+    #section1 li{
+      display: inline-block;
+      transition: all 0.5s ease-in-out;
+      padding: 15px;
+    }
+    .fakeimg{
+      justify-content: center;
+      position: sticky;
+      width: 450px;
+      height: 300px;
+      margin-left: 35%;
+     
+    }
+    #section2{
+    
+        flex: 70%;
+    background-color: rgb(238, 238, 238);
+   
+    text-align: center;
+    color: rgb(34, 40, 49);
+    }
+    #section2 li{
+      display: inline-block;
+      transition: all 0.5s ease-in-out;
+      padding: 50px;
+    }
+    .fakeimg2{
+      justify-content: center;
+      position: sticky;
+      width: 450px;
+      height: 300px;
+      margin-left: 35%;
+    }
+    #section3{
+        flex: 70%;
+    background-color: rgb(238, 238, 238);
+   
+    text-align: center;
+    color: rgb(34, 40, 49);
+    }
+    #section3 li{
+      display: inline-block;
+      transition: all 0.5s ease-in-out;
+      padding: 15px;
+    }
+    
+    #section4{
+        flex: 70%;
+    background-color: rgb(238, 238, 238);
+   
+    text-align: center;
+    color: rgb(34, 40, 49);
+    }
+    #section4 li{
+      display: inline-block;
+      transition: all 0.5s ease-in-out;
+      padding: 15px;
+    }
+    #section5{
+      flex: 70%;
+  background-color: rgb(238, 238, 238);
+ 
+  text-align: center;
+  color: rgb(34, 40, 49);
+  }
+
+  .footer {
+    padding: 3px;
+    text-align: center;
+    background: rgb(34, 40, 49);
+    color: rgb(238, 238, 238);
+    font-size: 10px;
+  }
